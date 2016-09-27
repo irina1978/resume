@@ -4,3 +4,32 @@ p {
 .red {
     color: blue;
 }
+body {
+    background: lightyellow;
+    font-family: Calibri, Arial;
+}
+a > img {
+    height: 50px;
+}
+h2 {
+    color: green;
+    padding-left: 10px;
+}
+
+li {
+    list-style: none;
+}
+ul {
+    padding-left: 10px;
+}
+#menu li {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+#menu li:hover {
+    background: green;
+    color: yellow;
+}
